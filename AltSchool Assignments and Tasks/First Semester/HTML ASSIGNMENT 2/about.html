@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #222;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        picture img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        video, audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Application Form</a>
+        <a href="courses.html">Courses</a>
+    </nav>
+    
+    <div class="container">
+        <h2>Who Am I?</h2>
+        <p>I am an aspiring DevOps Engineer passionate about cloud computing and automation.</p>
+        
+        <h2>My Visual Journey</h2>
+        <picture>
+            <source srcset="assets/NGOZI-OPARA-PASSPORT.png" media="(min-width: 1024px)">
+            <source srcset="assets/4016257.jpg" media="(min-width: 768px)">
+            <source srcset="assets/57791.jpg" media="(max-width: 767px)">
+            <img src="image-default.jpg" alt="A visual representation of my journey">
+        </picture>
+        
+        <h2>Watch My Story</h2>
+        <video controls>
+            <source src="assets/IMG_0062.MOV" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <h2>Listen to My Thoughts</h2>
+        <audio controls>
+            <source src="assets/chimes.wav" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+    
+    <footer>
+        <p>© 2025 Opara Ngozi Hannah. All rights reserved.</p>
+    </footer>
+</body>
+</html>

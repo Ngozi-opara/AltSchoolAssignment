@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Courses</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #222;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AltSchool Courses</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Application Form</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    
+    <div class="container">
+        <h2>List of Schools and Courses</h2>
+        <table>
+            <tr>
+                <th>School</th>
+                <th>Courses</th>
+            </tr>
+            <tr>
+                <td rowspan="4">School of Engineering (SOE)</td>
+                <td>Frontend Engineering</td>
+            </tr>
+            <tr>
+                <td>Backend Engineering</td>
+            </tr>
+            <tr>
+                <td>Cloud Engineering</td>
+            </tr>
+            <tr>
+                <td>Cybersecurity</td>
+            </tr>
+            <tr>
+                <td rowspan="3">School of Product (SOP)</td>
+                <td>Product Design</td>
+            </tr>
+            <tr>
+                <td>Marketing</td>
+            </tr>
+            <tr>
+                <td>Product Management</td>
+            </tr>
+            <tr>
+                <td rowspan="3">School of Data (SOD)</td>
+                <td>Data Analysis</td>
+            </tr>
+            <tr>
+                <td>Data Science</td>
+            </tr>
+            <tr>
+                <td>Data Engineering</td>
+            </tr>
+        </table>
+    </div>
+    
+    <footer>
+        <p>© 2025 Ngozi Hannah Opara. All rights reserved.</p>
+        <p>Lagos, Nigeria</p>
+    </footer>
+</body>
+</html>
