@@ -15,7 +15,7 @@ This repository contains my **HTML assignments** for AltSchool Africa's first se
   - **Internal CSS** for styling.
 
 ## 🔗 Links
-- **Live Demo:** _(If deployed, add a GitHub Pages/Netlify link here)_
+- **Live Demo:** _([Hosted Page](https://altschoolhtmlassignment-firstsemester.netlify.app/))_
 
 ## 🛠️ Technologies Used
 - **HTML5**
